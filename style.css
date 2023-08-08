@@ -29,8 +29,6 @@
 }
 .login-icon-img{
     object-fit: contain;
-    /* align-self: center;
-    justify-self: center; */
 }        
 
 .search-bar{
@@ -103,7 +101,6 @@
 
 }
 .categories-mobile-cards-pic{
-    /* display: flex; */
     width: 100px;
     height: 100px;
  object-fit: contain;
@@ -247,6 +244,19 @@ color: rgb(31, 31, 31);
  text-decoration: none;
  margin: 5px;
 }
+.footer-mobile{
+ display: none;
+}
+.fm-img{
+
+}
+.fm-click{
+    padding: 10px;
+    margin-top:10px ;
+    width: 100vw; 
+    height: 20px;
+}
+
 .footer-row-3{
     color:#666666;
         font-size: 15px;
@@ -255,6 +265,21 @@ color: rgb(31, 31, 31);
 }
 
 @media screen and (max-width:991px) and (min-width:767px) {
+    /* .show-on-click{
+      display: none;
+    }
+    .show-on-click:onclick{
+      display: flex;
+    }
+    .hide-on-click{
+    }
+    .hide-on-click:active{
+     display: none;
+    }
+    .footer-mobile{
+        display: flex;
+        flex-direction: column;
+       } */
     .login-icon{
         display: flex;
         align-items: center;
@@ -266,9 +291,10 @@ color: rgb(31, 31, 31);
        padding: 10px;
     }
     .my-navbar{
+        box-sizing: border-box;
         height: 126px;
         border: none;
-        width: 100vw;
+        /* width: 100vw; */
        justify-content: space-evenly;
        flex-direction: column; 
        justify-content: space-between;
@@ -336,9 +362,8 @@ color: rgb(31, 31, 31);
         height: 126px;
         border: none;
         width: 100vw;
-       justify-content: space-evenly;
+        top: 0px;
        flex-direction: column; 
-       justify-content: space-between;
     }
     .fw-bolder{
         font-size: 18px;

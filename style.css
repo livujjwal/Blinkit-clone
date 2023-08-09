@@ -66,11 +66,14 @@
     align-items: center;
     margin-inline: auto;
     width: 82vw;
-    overflow-x: auto;
+    /* overflow-x: auto; */
 }
 .list{
  width: 100%;
  margin-inline: auto;
+ overflow-x: auto;
+ /* display: flex; */
+ /* flex-wrap: nowrap; */
  white-space: nowrap;
 }
 .list>section{
@@ -109,12 +112,10 @@
 
 }
 .categories-mobile{
-
     display: none;
 }
 .categories-card{
     width: 85vw;
-    /* display: flex; */
   justify-content: center;
   margin-inline: auto;
   margin-top: 30px;
